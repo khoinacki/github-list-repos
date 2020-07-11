@@ -26,8 +26,8 @@ func main() {
 	if token == "" {
 		log.Fatal("Environment variable 'GITHUB_AUTH_TOKEN' must be set.")
 	}
-
-    githubBaseUrl  := os.Getenv("GITHUB_BASE_URL")
+	
+	githubBaseUrl  := os.Getenv("GITHUB_BASE_URL")
 	if githubBaseUrl == "" {
 		log.Fatal("Environment variable 'GITHUB_BASE_URL' must be set.")
 	}
