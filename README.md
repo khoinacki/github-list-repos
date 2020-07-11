@@ -1,5 +1,5 @@
 # github-list-repos
-Example of using go-gihub to output a list of repositories for an enterprise github instance
+Example of using [go-github](https://github.com/google/go-github) to output a list of repositories for an enterprise github instance
 
 Lists all of the repositories that the authorized user has access to.
 The following environment variables must be set:
